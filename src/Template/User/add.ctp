@@ -18,6 +18,7 @@
             echo $this->Form->control('name');
             echo $this->Form->control('email');
             echo $this->Form->control('password');
+            echo $this->Form->control('confirm password');
         ?>
     </fieldset>
     <?= $this->Form->button(__('Submit')) ?>
